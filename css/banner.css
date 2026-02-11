@@ -1,6 +1,7 @@
 .banner {
     background: url(../img/bg.png)no-repeat center bottom / cover;
     height: 100svh;
+    margin-bottom: 140px;
 }
 
 .banner__wrap {

@@ -1,0 +1,41 @@
+.about__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.about__SubTitle {
+    position: relative;
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.undo {
+    position: absolute;
+    border-bottom: 2px solid var(--black);
+    width: 144px;
+    top: 50%;
+    left: 100px;
+}
+
+.about__title {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--black);
+}
+
+.about__desc {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--grey);
+
+}
