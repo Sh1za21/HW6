@@ -22,6 +22,7 @@
     font-size: 24px;
     line-height: 100%;
     color: var(--balck);
+    transition: 0.5s;
 
 }
 
@@ -31,7 +32,13 @@
     font-size: 24px;
     line-height: 100%;
     color: var(--balck);
+    transition: 0.5s;
 
+}
+.header__nav-item_link:hover{
+    color: gray;
+    transform: scale(1.2);
+    
 }
 
 .header__nav-list2 {
@@ -40,6 +47,7 @@
     gap: 60px;
 
 }
+
 
 @media screen and (max-width:1014px) {
     .header__nav{
