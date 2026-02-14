@@ -39,3 +39,10 @@
     color: var(--grey);
 
 }
+.undo2{
+    position: absolute;
+    border-bottom: 2px solid var(--black);
+    width: 144px;
+    top: 50%;
+    left: 255px;
+}

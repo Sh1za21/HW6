@@ -1,0 +1,54 @@
+.footer {
+    border-top: 2px solid var(--black);
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 135px 0;
+}
+
+.footer__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 230px;
+}
+
+.footer__nav-list_item-link {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    ;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--black);
+    transition: 0.5s;
+
+}
+
+.footer__nav-list_item-link:hover {
+    color: var(--grey);
+}
+
+.footer__nav_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: flex-start;
+}
+
+.footer__nav-icons_title {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 90%;
+    color: var(--black);
+    display: flex;
+    justify-content: flex-start;
+}
+.footer__nav-icons_media{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+}

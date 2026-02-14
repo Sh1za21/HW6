@@ -47,6 +47,14 @@
     gap: 60px;
 
 }
+.header__korzina-img path{
+    fill: black;
+    transition: 0.5s;
+}
+.header__korzina-img:hover path{
+    fill: var(--grey);
+    background: var(--black);
+}
 
 
 @media screen and (max-width:1014px) {

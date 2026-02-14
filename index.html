@@ -29,12 +29,15 @@
                 </ul>
                 <ul class="header__nav-list2">
                     <a href="#" class="header__nav-list2-icons">
-                        <img src="./img/korzina.svg" alt="">
-                        <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
-                                fill="black" />
-                        </svg>
+                        <div class="header__korzina">
+                            <svg width="17" height="20" viewBox="0 0 17 20" class="header__korzina-img" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+
                     </a>
                     <a href="#" class="header__nav-list2-icons">
                         <img src="./img/like.svg" alt="">
@@ -74,12 +77,12 @@
                         <div class="card__wrap">
                             <h3 class="card__title">Clay Pot "Sakura"</h3>
                             <p class="card__desc">Size: Medium</p>
-                            <p class="card__desc">Color: Light Gray</p>
+                            <p class="card__desc child">Color: Light Gray</p>
                             <p class="card__price">Price: 60 USD</p>
-                            <button class="card__btn">Buy</button>
                         </div>
                     </div>
                 </div>
+
                 <div class="gallery__card Big">
                     <img class="gallery__card-img" src="./img/gallery2.png" alt="">
                     <div class="gallery__card-ins">
@@ -87,9 +90,8 @@
                         <div class="card__wrap">
                             <h3 class="card__title">Clay Pot "Fuji"</h3>
                             <p class="card__desc">Size: Large</p>
-                            <p class="card__desc">Color: Dark Gray</p>
+                            <p class="card__desc child">Color: Dark Gray</p>
                             <p class="card__price">Price: 120 USD</p>
-                            <button class="card__btn">Buy</button>
                         </div>
                     </div>
                 </div>
@@ -100,15 +102,262 @@
                         <div class="card__wrap">
                             <h3 class="card__title">Clay Pot "Tokyo"</h3>
                             <p class="card__desc">Size: Large</p>
-                            <p class="card__desc">Color: Beige</p>
+                            <p class="card__desc child">Color: Beige</p>
                             <p class="card__price">Price: 80 USD</p>
-                            <button class="card__btn">Buy</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="about">
+            <div class="container about__wrap">
+                <h1 class="about__SubTitle">Bestsellers
+                    <div class="undo2"></div>
+                </h1>
+                <h3 class="about__title">Discover the most popular clay pots that attract the attention of our
+                    customers.</h3>
+                <p class="about__desc">These products perfectly combine Feng Shui aesthetics, quality, and style.</p>
+            </div>
+        </div>
+        <div class="gallery2">
+            <div class="container gallery2__wrap">
+                <div class="gallery2__card-img">
+                    <img class="gallery2__card-img1" src="./img/pot1.png" alt="">
+                    <div class="gallery2__desc">
+                        <span class="potDisc">20%</span>
+                        <div class="gallery2__favorites">
+                            <div class="potKorzina">
+                                <svg class="potKorzina__svg" width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="potLike">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="potLike__img">
+                                    <path
+                                        d="M17.4004 1C20.5459 1.0002 22.9999 3.4437 23 6.59375C23 8.52464 22.1369 10.3607 20.4131 12.4678C18.6783 14.5882 16.178 16.8595 13.0684 19.6768L13.0674 19.6777L12 20.6475L10.9326 19.6777L10.9316 19.6768L8.71582 17.6602C6.6193 15.7335 4.88802 14.0581 3.58691 12.4678C1.86312 10.3607 1 8.52464 1 6.59375C1.00013 3.4437 3.45412 1.0002 6.59961 1C8.38563 1 10.1163 1.83603 11.2412 3.14551L12 4.02832L12.7588 3.14551C13.8837 1.83603 15.6144 1 17.4004 1Z"
+                                        stroke="#242424" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrap2">
+                        <h3 class="card__title">Clay Pot "Tokyo"</h3>
+                        <p class="card__desc">Size: Large</p>
+                        <p class="card__desc child">Color: Beige</p>
+                        <p class="card__price">Price: 80 USD</p>
+                        <button class="card__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="gallery2__card-img">
+                    <img class="gallery2__card-img1" src="./img/pot2.png" alt="">
+                    <div class="gallery2__desc">
+                        <span class="potDisc">20%</span>
+                        <div class="gallery2__favorites">
+                            <div class="potKorzina">
+                                <svg class="potKorzina__svg" width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="potLike">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="potLike__img">
+                                    <path
+                                        d="M17.4004 1C20.5459 1.0002 22.9999 3.4437 23 6.59375C23 8.52464 22.1369 10.3607 20.4131 12.4678C18.6783 14.5882 16.178 16.8595 13.0684 19.6768L13.0674 19.6777L12 20.6475L10.9326 19.6777L10.9316 19.6768L8.71582 17.6602C6.6193 15.7335 4.88802 14.0581 3.58691 12.4678C1.86312 10.3607 1 8.52464 1 6.59375C1.00013 3.4437 3.45412 1.0002 6.59961 1C8.38563 1 10.1163 1.83603 11.2412 3.14551L12 4.02832L12.7588 3.14551C13.8837 1.83603 15.6144 1 17.4004 1Z"
+                                        stroke="#242424" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrap2">
+                        <h3 class="card__title">Clay Pot "Tokyo"</h3>
+                        <p class="card__desc">Size: Large</p>
+                        <p class="card__desc child">Color: Beige</p>
+                        <p class="card__price">Price: 80 USD</p>
+                        <button class="card__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="gallery2__card-img">
+                    <img class="gallery2__card-img1" src="./img/pot3.png" alt="">
+                    <div class="gallery2__desc">
+                        <span class="potDisc">20%</span>
+                        <div class="gallery2__favorites">
+                            <div class="potKorzina">
+                                <svg class="potKorzina__svg" width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="potLike">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="potLike__img">
+                                    <path
+                                        d="M17.4004 1C20.5459 1.0002 22.9999 3.4437 23 6.59375C23 8.52464 22.1369 10.3607 20.4131 12.4678C18.6783 14.5882 16.178 16.8595 13.0684 19.6768L13.0674 19.6777L12 20.6475L10.9326 19.6777L10.9316 19.6768L8.71582 17.6602C6.6193 15.7335 4.88802 14.0581 3.58691 12.4678C1.86312 10.3607 1 8.52464 1 6.59375C1.00013 3.4437 3.45412 1.0002 6.59961 1C8.38563 1 10.1163 1.83603 11.2412 3.14551L12 4.02832L12.7588 3.14551C13.8837 1.83603 15.6144 1 17.4004 1Z"
+                                        stroke="#242424" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrap2">
+                        <h3 class="card__title">Clay Pot "Tokyo"</h3>
+                        <p class="card__desc">Size: Large</p>
+                        <p class="card__desc child">Color: Beige</p>
+                        <p class="card__price">Price: 80 USD</p>
+                        <button class="card__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="gallery2__card-img">
+                    <img class="gallery2__card-img1" src="./img/pot4.png" alt="">
+                    <div class="gallery2__desc">
+                        <span class="potDisc">20%</span>
+                        <div class="gallery2__favorites">
+                            <div class="potKorzina">
+                                <svg class="potKorzina__svg" width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="potLike">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="potLike__img">
+                                    <path
+                                        d="M17.4004 1C20.5459 1.0002 22.9999 3.4437 23 6.59375C23 8.52464 22.1369 10.3607 20.4131 12.4678C18.6783 14.5882 16.178 16.8595 13.0684 19.6768L13.0674 19.6777L12 20.6475L10.9326 19.6777L10.9316 19.6768L8.71582 17.6602C6.6193 15.7335 4.88802 14.0581 3.58691 12.4678C1.86312 10.3607 1 8.52464 1 6.59375C1.00013 3.4437 3.45412 1.0002 6.59961 1C8.38563 1 10.1163 1.83603 11.2412 3.14551L12 4.02832L12.7588 3.14551C13.8837 1.83603 15.6144 1 17.4004 1Z"
+                                        stroke="#242424" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrap2">
+                        <h3 class="card__title">Clay Pot "Tokyo"</h3>
+                        <p class="card__desc">Size: Large</p>
+                        <p class="card__desc child">Color: Beige</p>
+                        <p class="card__price">Price: 80 USD</p>
+                        <button class="card__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="gallery2__card-img">
+                    <img class="gallery2__card-img1" src="./img/pot5.png" alt="">
+                    <div class="gallery2__desc">
+                        <span class="potDisc">20%</span>
+                        <div class="gallery2__favorites">
+                            <div class="potKorzina">
+                                <svg class="potKorzina__svg" width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="potLike">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="potLike__img">
+                                    <path
+                                        d="M17.4004 1C20.5459 1.0002 22.9999 3.4437 23 6.59375C23 8.52464 22.1369 10.3607 20.4131 12.4678C18.6783 14.5882 16.178 16.8595 13.0684 19.6768L13.0674 19.6777L12 20.6475L10.9326 19.6777L10.9316 19.6768L8.71582 17.6602C6.6193 15.7335 4.88802 14.0581 3.58691 12.4678C1.86312 10.3607 1 8.52464 1 6.59375C1.00013 3.4437 3.45412 1.0002 6.59961 1C8.38563 1 10.1163 1.83603 11.2412 3.14551L12 4.02832L12.7588 3.14551C13.8837 1.83603 15.6144 1 17.4004 1Z"
+                                        stroke="#242424" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrap2">
+                        <h3 class="card__title">Clay Pot "Tokyo"</h3>
+                        <p class="card__desc">Size: Large</p>
+                        <p class="card__desc child">Color: Beige</p>
+                        <p class="card__price">Price: 80 USD</p>
+                        <button class="card__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="gallery2__card-img">
+                    <img class="gallery2__card-img1" src="./img/pot6.png" alt="">
+                    <div class="gallery2__desc">
+                        <span class="potDisc">20%</span>
+                        <div class="gallery2__favorites">
+                            <div class="potKorzina">
+                                <svg class="potKorzina__svg" width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.3571 5C13.3571 2.24301 11.1782 0 8.5 0C5.82174 0 3.64286 2.24301 3.64286 5H0V16.875C0 18.6009 1.35913 20 3.03571 20H13.9643C15.6409 20 17 18.6009 17 16.875V5H13.3571ZM8.5 1.25C10.5087 1.25 12.1429 2.93223 12.1429 5H4.85714C4.85714 2.93223 6.49131 1.25 8.5 1.25ZM15.7857 16.875C15.7857 17.9089 14.9686 18.75 13.9643 18.75H3.03571C2.03139 18.75 1.21429 17.9089 1.21429 16.875V6.25H3.64286V8.125C3.64286 8.4702 3.91471 8.75 4.25 8.75C4.58529 8.75 4.85714 8.4702 4.85714 8.125V6.25H12.1429V8.125C12.1429 8.4702 12.4147 8.75 12.75 8.75C13.0853 8.75 13.3571 8.4702 13.3571 8.125V6.25H15.7857V16.875Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="potLike">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="potLike__img">
+                                    <path
+                                        d="M17.4004 1C20.5459 1.0002 22.9999 3.4437 23 6.59375C23 8.52464 22.1369 10.3607 20.4131 12.4678C18.6783 14.5882 16.178 16.8595 13.0684 19.6768L13.0674 19.6777L12 20.6475L10.9326 19.6777L10.9316 19.6768L8.71582 17.6602C6.6193 15.7335 4.88802 14.0581 3.58691 12.4678C1.86312 10.3607 1 8.52464 1 6.59375C1.00013 3.4437 3.45412 1.0002 6.59961 1C8.38563 1 10.1163 1.83603 11.2412 3.14551L12 4.02832L12.7588 3.14551C13.8837 1.83603 15.6144 1 17.4004 1Z"
+                                        stroke="#242424" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrap2">
+                        <h3 class="card__title">Clay Pot "Tokyo"</h3>
+                        <p class="card__desc">Size: Large</p>
+                        <p class="card__desc child">Color: Beige</p>
+                        <p class="card__price">Price: 80 USD</p>
+                        <button class="card__btn">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="container about__wrap">
+                <h1 class="about__SubTitle">About us
+                    <div class="undo3"></div>
+                </h1>
+                <h3 class="about__title">Welcome to our store, where tradition and modern style meet in every pot..</h3>
+                <p class="about__desc">We are a team inspired by the philosophy of Feng Shui, creating unique clay pots
+                    that help fill your home with harmony and tranquility. Each of our products is crafted with special
+                    attention to detail and made from high-quality materials, allowing us to offer you items that are
+                    not only beautiful but also beneficial for your home.</p>
+                <div class="last__about-img">
+                    <img src="./img/lastGallery.png" alt="">
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-list_item">
+                            <a href="" class="footer__nav-list_item-link">Home</a>
+                        </li>
+                        <li class="footer__nav-list_item">
+                            <a href="" class="footer__nav-list_item-link">Shop</a>
+                        </li>
+                        <li class="footer__nav-list_item">
+                            <a href="" class="footer__nav-list_item-link">About</a>
+                        </li>
+                        <li class="footer__nav-list_item">
+                            <a href="" class="footer__nav-list_item-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="footer__nav_icons">
+                        <h3 class="footer__nav-icons_title">FOLLOW US</h3>
+                        <div class="footer__nav-icons_media">
+                            <a href="#" class="footer__nav-icons_media-link">
+                                <img src="./img/insta.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__nav-icons_media-link">
+                                <img src="./img/W.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__nav-icons_media-link">
+                                <img src="./img/X.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </footer>
     </main>
 </body>
 
