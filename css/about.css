@@ -42,7 +42,14 @@
 .undo2{
     position: absolute;
     border-bottom: 2px solid var(--black);
-    width: 144px;
+    width: 120px;
     top: 50%;
     left: 255px;
+}
+.undo3 {
+    border-bottom: 2px solid var(--black);
+    position: absolute;
+    top: 50%;
+    width: 120px;
+    left: 185px;
 }

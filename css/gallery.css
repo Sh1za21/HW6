@@ -1,7 +1,7 @@
 .galler__wrap {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 400px;
     gap: 24px;
 }
@@ -16,13 +16,13 @@
 }
 
 .Big {
-    grid-column: 2 span;
+    grid-column: 1 span;
     grid-row: 2 span;
 }
 
 .Mid {
-    grid-column: 2 span;
-    grid-row: 1 span;
+    /* grid-column: 1 span; */
+
 }
 
 .gallery__card {
@@ -145,15 +145,20 @@
 .potKorzina {
     max-width: 60px;
     width: 100%;
-    padding: 18px 0;
+    padding: 18px 18px;
     background: var(--white);
 }
 
 .potLike {
     max-width: 60px;
     width: 100%;
-    padding: 18px 0;
+    padding: 18px 18px;
     background: var(--white);
+    transition: 0.5s;
+}
+
+.potLike:hover path {
+    fill: #242424;
 }
 
 .potDisc {
@@ -170,31 +175,71 @@
     text-transform: uppercase;
     color: var(--white);
 }
-.gallery2__wrap{
+
+.gallery2__wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: 552px; */
     gap: 1px;
 }
-.gallery2__card-img{
+
+.gallery2__card-img {
     grid-column: 1 span;
     grid-row: 1 span;
 }
-.gallery2__card-img1{
+
+.gallery2__card-img1 {
     width: 100%;
     height: 100%;
 }
-.gallery2{
+
+.gallery2 {
     margin-bottom: 120px;
 }
-.undo3{
-    border-bottom: 2px solid var(--black);
-    position: absolute;
-    top: 50%;
-    width: 144px;
-    left: 185px;
-}
-.last__about-img{
-    min-width: 1674px;
+
+.last__about-img {
+    width: 1674px;
     width: 100%;
+}
+.last__about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:1020px) {
+    .galler__wrap {
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 400px;
+    }
+
+    .gallery2__wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width:1128px) {
+    .potLike{
+        padding: 10px 10px;
+    }
+    .potKorzina{
+        padding: 10px 10px;
+    }
+    .potDisc{
+        max-width: 90px;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:670px) {
+    .gallery2__wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card__btn{
+        max-width: 100px;
+        padding: 12px 0;
+    }
+    
 }
